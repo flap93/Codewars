@@ -36,3 +36,18 @@ var max = function(list){
 
 [-52, 56, 30, 29, -54, 0, -110]
 [4,6,2,1,9,63,-134,566]
+
+
+// ! A function that alwaways returns 5 but without numbers
+
+function unusualFive() {
+  return 'fucku'.length
+}
+
+
+
+// !return true if the first and last letter of a WORD  match with the first letter and last letter of the second WORD
+
+function feast(beast, dish) {
+  return beast[0] === dish[0] && beast[beast.length - 1] === dish[dish.length - 1]
+}
